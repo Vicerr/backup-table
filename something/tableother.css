@@ -1,0 +1,98 @@
+@media all and (max-width: 600px) {
+    .tablecontainer th:not(:nth-child(1)), .tablecontainer td:not(:nth-child(1)){
+        margin: 0 auto;
+        display: none;
+    }
+
+    td{
+        width: 100%;
+    }
+}
+*{    font-family: Roboto, Helvetica, Arial, 华文细黑, "Microsoft YaHei", 微软雅黑, SimSun, 宋体, Heiti, 黑体, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tablecontainer{
+    background-color: #2d2f4b;
+    box-sizing: border-box;
+    padding: 40px 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: .90rem;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.tablecontainer table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tablecontainer th{
+    text-align: left;
+    padding: 10px 26px;
+    color: #888ea5;
+    font-weight: 500;
+}
+
+td{
+    /* background-color: red; */
+    padding: 20px;
+
+}
+.tablecontainer tr:hover{
+    background-color: #393f64;
+}
+
+.tablecontainer td:last-child select{
+    outline: none;
+    border: none;
+    background-color: inherit;
+}
+
+.tbl{
+    position: absolute;
+    display: none;
+    background-color: orange;
+}
+
+.table-row{
+    position: relative;
+}
+
+.table-row select, .table-dropdown select{
+    color: white;
+}
+
+
+.table-row:hover .tbl{
+    display: block;
+}
+
+.coin-name span{
+    color: #888ea5;
+}
+
+.table-dropdown{
+    background-color: #1f2034;
+}
+
+.tablecontainer td:nth-child(2){
+    width: 40%;
+}
+
+
+.subscribe-btn{
+    background-color:#4169ff;
+    outline: none;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.coin-img{
+    width: 20px;
+    height: 20px;
+}
